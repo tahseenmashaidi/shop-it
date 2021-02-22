@@ -1,0 +1,47 @@
+[
+  {
+    "name":"SanDisk Ultra",
+    "price":"45.25",
+    "description":"SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture",
+    "ratings":4.5,
+    "images":[{
+      "public_id":"products/tzfsnrli3szrdnb4jgge",
+      "url":"https://res.cloudeinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+    }],
+    "category":"Electronics",
+    "seller":"Ebay",
+    "stock":50,
+    "numOfReviews":32,
+    "reviews":[]
+  },
+  {
+    "name":"Computer",
+    "price":"34.25",
+    "description":"SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture",
+    "ratings":4.5,
+    "images":[{
+      "public_id":"products/tzfsnrli3szrdnb4jgge",
+      "url":"https://res.cloudeinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+    }],
+    "category":"Electronics",
+    "seller":"Ebay",
+    "stock":50,
+    "numOfReviews":32,
+    "reviews":[]
+  },
+  {
+    "name":"Laptop",
+    "price":"67.25",
+    "description":"SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture SanDisk fast  Ultra card to take better picture",
+    "ratings":4.5,
+    "images":[{
+      "public_id":"products/tzfsnrli3szrdnb4jgge",
+      "url":"https://res.cloudeinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+    }],
+    "category":"Electronics",
+    "seller":"Ebay",
+    "stock":50,
+    "numOfReviews":32,
+    "reviews":[]
+  }
+]
