@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b013273-07d8-458e-8b64-cf2196b8ebca" name="Default Changelist" comment="" />
+    <list default="true" id="7b013273-07d8-458e-8b64-cf2196b8ebca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/utils/apiFeatures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -67,6 +71,7 @@
       <workItem from="1613627562465" duration="1667000" />
       <workItem from="1613634586069" duration="9804000" />
       <workItem from="1613970554878" duration="627000" />
+      <workItem from="1613971328434" duration="2268000" />
     </task>
     <servers />
   </component>
