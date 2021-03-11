@@ -5,6 +5,7 @@ const APIFeatures =require('../utils/apiFeatures')
 
 // create new product => /api/v1/admin/product/new
 exports.newProduct =catchAsyncErrors( async (req,res,next) => {
+    req.body.user=req.user.id;
     const product =await  Product.create(req.body);
     res.status(201).json({
         success: true,
@@ -14,8 +15,10 @@ exports.newProduct =catchAsyncErrors( async (req,res,next) => {
 
 // get all product => /api/v2/products
 exports.getProducts=catchAsyncErrors( async (req, res,next)=>{
-    const apiFeatures=new APIFeatures(Product.find(),req.query).search()
-
+   const resPerPAge=5;
+   const productCount=await Product.countDocuments();
+    const apiFeatures=new APIFeatures(Product.find(),req.query)
+        .search().filter().pagination(resPerPAge)
     const products=await apiFeatures.query;
     if (!products){
         return next(new ErrorHandler('Products not found',404));
@@ -23,6 +26,7 @@ exports.getProducts=catchAsyncErrors( async (req, res,next)=>{
     res.status(200).json({
         success: true,
         count:products.length,
+        productCount,
         products
     })
 })
